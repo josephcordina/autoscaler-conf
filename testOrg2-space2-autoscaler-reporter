@@ -1,1 +1,42 @@
-another file
+{
+    "min_instances": 0,
+    "guid": "0a3b7aaf-bcd2-46e9-8465-ee6a8339e0c4",
+    "created_at": "2017-03-06T15:11:59Z",
+    "links": {
+      "scheduled_limit_changes": {
+        "href": "/api/bindings/0a3b7aaf-bcd2-46e9-8465-ee6a8339e0c4/scheduled_limit_changes"
+      },
+      "events": {
+        "href": "/api/bindings/0a3b7aaf-bcd2-46e9-8465-ee6a8339e0c4/scaling_events"
+      },
+      "self": {
+        "href": "/api/bindings/0a3b7aaf-bcd2-46e9-8465-ee6a8339e0c4"
+      }
+    },
+    "enabled": false,
+    "updated_at": "2017-03-06T15:12:10Z",
+    "org_name": "testOrg2",
+    "max_instances": 0,
+    "app_name": "autoscaler-reporter",
+    "relationships": {
+      "rules": [
+        {
+          "guid": "553ba7e6-7255-4669-500c-79a752b1b4fd",
+          "created_at": "2017-03-06T15:11:59Z",
+          "enabled": true,
+          "min_threshold": 20,
+          "updated_at": "2017-03-06T15:11:59Z",
+          "max_threshold": 80,
+          "service_binding_guid": "0a3b7aaf-bcd2-46e9-8465-ee6a8339e0c4",
+          "type": "cpu",
+          "sub_type": ""
+        }
+      ]
+    },
+    "app_guid": "ff10442c-f15f-43df-b4df-b270a403952e",
+    "service_instance_guid": "489de556-83be-41a1-81a2-24b96eec954c",
+    "key": "testOrg2-space2-autoscaler-reporter",
+    "space_name": "space2",
+    "expected_instance_count": 0
+}
+

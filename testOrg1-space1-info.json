@@ -1,5 +1,63 @@
-test contents
-
-and go
-
-more
+{
+    "min_instances": 1,
+    "guid": "c2d7099c-e707-49d8-a9e0-fd632b6f8c92",
+    "created_at": "2017-03-01T14:55:02Z",
+    "links": {
+      "scheduled_limit_changes": {
+        "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92/scheduled_limit_changes"
+      },
+      "events": {
+        "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92/scaling_events"
+      },
+      "self": {
+        "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92"
+      }
+    },
+    "enabled": false,
+    "updated_at": "2017-03-06T12:04:41Z",
+    "org_name": "testOrg1",
+    "max_instances": 1,
+    "app_name": "info",
+    "relationships": {
+      "rules": [
+        {
+          "guid": "862aff39-f137-4494-580e-21ecd8325ac2",
+          "created_at": "2017-03-06T12:04:41Z",
+          "enabled": true,
+          "min_threshold": 20,
+          "updated_at": "2017-03-06T12:04:41Z",
+          "max_threshold": 200,
+          "service_binding_guid": "c2d7099c-e707-49d8-a9e0-fd632b6f8c92",
+          "type": "http_throughput",
+          "sub_type": ""
+        },
+        {
+          "guid": "bc115e96-475b-4780-487f-017a58d1593f",
+          "created_at": "2017-03-01T14:55:02Z",
+          "enabled": true,
+          "min_threshold": 20,
+          "updated_at": "2017-03-06T12:04:41Z",
+          "max_threshold": 80,
+          "service_binding_guid": "c2d7099c-e707-49d8-a9e0-fd632b6f8c92",
+          "type": "cpu",
+          "sub_type": ""
+        },
+        {
+          "guid": "f0bf174f-0770-41d1-5ba7-0b0cda551249",
+          "created_at": "2017-03-06T12:04:24Z",
+          "enabled": true,
+          "min_threshold": 20,
+          "updated_at": "2017-03-06T12:04:41Z",
+          "max_threshold": 100,
+          "service_binding_guid": "c2d7099c-e707-49d8-a9e0-fd632b6f8c92",
+          "type": "http_latency",
+          "sub_type": "avg_99th"
+        }
+      ]
+    },
+    "app_guid": "612f5abd-d7af-4fab-a294-4d4af3ecbb00",
+    "service_instance_guid": "ae217ae5-4651-4cb2-b1c8-bbfb356f7bfa",
+    "key": "testOrg1-space1-info",
+    "space_name": "space1",
+    "expected_instance_count": 1
+}
