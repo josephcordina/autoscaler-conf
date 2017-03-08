@@ -1,0 +1,35 @@
+{
+    "min_instances": 1,
+    "links": {
+      "scheduled_limit_changes": {
+        "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92/scheduled_limit_changes"
+      },
+      "events": {
+        "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92/scaling_events"
+      },
+      "self": {
+        "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92"
+      }
+    },
+    "enabled": false,
+    "updated_at": "2017-03-06T12:04:41Z",
+    "max_instances": 2,
+    "app_name": "info",
+    "relationships": {
+      "rules": [
+        {
+          "guid": "bc115e96-475b-4780-487f-017a58d1593f",
+          "created_at": "2017-03-01T14:55:02Z",
+          "enabled": true,
+          "min_threshold": 20,
+          "updated_at": "2017-03-06T12:04:41Z",
+          "max_threshold": 80,
+          "service_binding_guid": "c2d7099c-e707-49d8-a9e0-fd632b6f8c92",
+          "type": "cpu",
+          "sub_type": ""
+        }
+      ]
+    },
+    "service_instance_guid": "ae217ae5-4651-4cb2-b1c8-bbfb356f7bfa",
+    "expected_instance_count": 1
+}
