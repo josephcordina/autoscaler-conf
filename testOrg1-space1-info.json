@@ -14,7 +14,7 @@
     "enabled": false,
     "updated_at": "2017-03-06T12:04:41Z",
     "org_name": "testOrg1",
-    "max_instances": 2,
+    "max_instances": 1,
     "app_name": "info",
     "relationships": {
       "rules": [
