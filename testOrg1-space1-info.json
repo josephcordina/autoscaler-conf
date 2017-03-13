@@ -13,7 +13,7 @@
     },
     "enabled": true,
     "updated_at": "2017-03-06T12:04:41Z",
-    "max_instances": 2,
+    "max_instances": 3,
     "app_name": "info",
     "relationships": {
       "rules": [
