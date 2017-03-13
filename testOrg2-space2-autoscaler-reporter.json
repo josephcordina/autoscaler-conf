@@ -11,7 +11,7 @@
         "href": "/api/bindings/0a3b7aaf-bcd2-46e9-8465-ee6a8339e0c4"
       }
     },
-    "enabled": false,
+    "enabled": true,
     "updated_at": "2017-03-06T15:12:10Z",
     "org_name": "testOrg2",
     "max_instances": 0,
