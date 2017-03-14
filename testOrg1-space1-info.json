@@ -1,5 +1,5 @@
 {
-    "min_instances": 1,
+    "min_instances": 2,
     "links": {
       "scheduled_limit_changes": {
         "href": "/api/bindings/c2d7099c-e707-49d8-a9e0-fd632b6f8c92/scheduled_limit_changes"
